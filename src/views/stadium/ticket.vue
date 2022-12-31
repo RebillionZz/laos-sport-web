@@ -1,31 +1,32 @@
 <template>
-    <div>
-        <div class="text-center">
-            ticket
-        </div>
-    </div>
+
 </template>
 
 <script>
 export default {
-    name: 'LaosSportTickket',
+  name: "LaosSportNews",
 
-    data() {
-        return {
-            
-        };
-    },
+  data() {
+    return {};
+  },
 
-    mounted() {
-        
-    },
+  mounted() {},
 
-    methods: {
-        
-    },
+  methods: {},
 };
 </script>
 
 <style lang="scss" scoped>
-
+.v-title-color{
+    color: white;
+    text-shadow: 0 0 5px #000;
+}
+.img-match{
+    width: 80%;
+}
+@media screen and (max-width: 500px) {
+    .img-match{
+        width: 100%;
+    }
+}
 </style>
