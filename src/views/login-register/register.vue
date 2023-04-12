@@ -28,27 +28,23 @@
       :rules="nameRules"
       label="ນາມສະກຸນ"
       required
+    ></v-text-field> 
+    
+    <v-text-field
+      v-model="name "
+      label="Username"
+      required
+      class=""
     ></v-text-field>
 
     <v-text-field
       v-model="Email "
       label="Email"
       required
-      class="mb-7"
+      class=""
     ></v-text-field>
 
-    <v-row>
-      <v-col cols="12">
-        <v-combobox
-          v-model="select"
-          :items="items"
-          label="Country"
-          outlined
-          dense
-          placeholder
-        ></v-combobox>
-      </v-col>
-    </v-row>
+   
     
     <v-text-field
       v-model="number"
@@ -78,7 +74,7 @@
     <v-btn
       
       color="primary"
-      class="mr-4"
+      class="mb-4"
       @click="validate"
     >
       Register Now
@@ -96,10 +92,7 @@ export default {
 
     data() {
         return {
-        items: [
-          'Laos (+856)',
-          'Thailand(+66)',
-        ],
+        
         };
     },
 
