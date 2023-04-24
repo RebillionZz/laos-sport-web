@@ -18,7 +18,7 @@
       v-model="name"
       :counter="60"
       :rules="nameRules"
-      label="ຊື່ ຫຼື ລະຫັດຜ່ານ"
+      label="ຊື່ ຫຼື ເບີໂທລະສັບ"
       required
     ></v-text-field>
 
