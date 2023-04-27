@@ -12,6 +12,7 @@ import badmintonVue from '@/views/stadium/badminton.vue'
 import footballPayVue from '@/views/stadium/football-pay.vue'
 import footballVue from '@/views/stadium/football.vue'
 import ticketVue from '@/views/stadium/ticket.vue'
+import myprofile from '@/views/userprofile/myprofile'
 
 Vue.use(VueRouter)
 
@@ -20,6 +21,11 @@ const routes = [
     path: '/',
     name: 'home',
     component: HomeView
+  },
+  {
+    path: '/myprofile',
+    name: 'myprofile',
+    component: myprofile
   },
   {
     path: '/ticket',

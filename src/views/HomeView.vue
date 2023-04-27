@@ -71,8 +71,8 @@
     </div>
     <div class="container-fluid text-center justify-content-center">
       <p class="text-primary fs-1">ບໍລິການທັງໝົດ</p>
-      <div>
-        <v-row class="p-2">
+      <div class="btn-main">
+        <v-row class="d-flex flex-row justify-content-center p-2">
           <v-col cols="6" lg="3" md="3" xl="3">
             <v-card
               class="mx-auto p-1 my-2"
@@ -105,20 +105,21 @@
           </v-col>
           <v-col cols="6" lg="3" md="3" xl="3">
             <v-card
+              id="card-low"
               class="mx-auto p-1 my-2"
               :elevation="5"
               max-height="200px"
               max-width="240px"
             >
-              <a href="#">
-              <img src="../../src/assets/icon/mdi_shop.svg" class="card-img" />
+              <a href="#" >
+              <img src="../../src/assets/icon/News.svg" class="card-img" />
               <div>
-                <p class="fs-3 fw-bold">ຮ້ານຄ້າ</p>
+                <p class="fs-3 fw-bold">ຂ່າວສານ</p>
               </div>
               </a>
             </v-card>
           </v-col>
-          <v-col cols="6" lg="3" md="3" xl="3">
+          <!-- <v-col cols="6" lg="3" md="3" xl="3">
             <v-card
               class="mx-auto p-1 my-2"
               :elevation="5"
@@ -132,7 +133,7 @@
               </div>
               </a>
             </v-card>
-          </v-col>
+          </v-col> -->
         </v-row>
       </div>
       <div class="text-center mt-3">
@@ -390,6 +391,9 @@ list-start {
 .al-start {
   text-align: start !important;
 }
+/* .btn-main{
+  margin-left: 12 0px;
+} */
 
 @media screen and (max-width: 490px) {
   .card-img {
@@ -412,5 +416,6 @@ list-start {
     width: 100px !important;
     height: 80px !important;
   }
+  
 }
 </style>

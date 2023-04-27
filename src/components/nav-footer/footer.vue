@@ -60,3 +60,9 @@
   background-clip: #002c43;
 }
 </style>
+
+<script>
+export default {
+  name: 'MyFooter'
+}
+</script>
