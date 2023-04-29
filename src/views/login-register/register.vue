@@ -70,7 +70,7 @@
       label="ຍອມຮັບເງື່ອນໄຂ ແລະ ຂໍ້ກຳນົດ"
       required
     ></v-checkbox>
-
+    <router-link to="/">
     <v-btn
       
       color="primary"
@@ -79,6 +79,7 @@
     >
       Register Now
     </v-btn>
+  </router-link>
   </v-form>
 
             </v-container>

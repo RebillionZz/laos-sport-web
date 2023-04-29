@@ -18,8 +18,9 @@
                 <v-card-subtitle class="pb-0"> ສະຫຼຸບຜົນການແຂ່ງຂັນບານໂລກປະຈຳປີ 2022 </v-card-subtitle>
 
                 <v-card-actions>
+                  <router-link to="/newsinfo">
                   <v-btn color="#0a75ad" text> ອ່ານຂ່າວ </v-btn>
-
+                  </router-link>
                   <v-btn color="#0a75ad" text> ແຊຣ໌ </v-btn>
                 </v-card-actions>
               </v-card>

@@ -111,12 +111,14 @@
               max-height="200px"
               max-width="240px"
             >
+            <router-link to="/News">
               <a href="#" >
               <img src="../../src/assets/icon/News.svg" class="card-img" />
               <div>
                 <p class="fs-3 fw-bold">ຂ່າວສານ</p>
               </div>
               </a>
+            </router-link>
             </v-card>
           </v-col>
           <!-- <v-col cols="6" lg="3" md="3" xl="3">

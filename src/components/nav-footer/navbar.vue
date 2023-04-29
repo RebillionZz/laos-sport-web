@@ -3,8 +3,14 @@
       <nav class="navbar navbar-expand-lg navbar-dark bg-laossport">
         <div class="container-fluid">
           <a class="navbar-brand " href="/" >
+            <!-- <img
+            src="../../assets/sport playprologo.png"
+            alt=""
+            height="90px"
+            width="100px"
+          />  -->
+          <h4 class="pl-6">PlayPro Sports</h4> 
             
-            <h4 class="pl-6">NTR SPORT</h4> 
           </a>
           <button
             class="navbar-toggler"
@@ -28,9 +34,9 @@
                 </router-link>
               </li>
               <li class="nav-item">
-               <router-link to="/news">
+                <router-link to="/football">
                   <v-btn depressed color="#0a75ad" class="text-white">
-                    ຂ່າວສານ
+                   ຈອງເດີນເຕະບານ
                   </v-btn>
                 </router-link>
               </li>
@@ -40,15 +46,15 @@
                 > -->
                 <router-link to="/badminton">
                   <v-btn depressed color="#0a75ad" class="text-white">
-                    ຈອງປີ້ເດີນຕີດອກປີກໄກ່
+                    ຈອງເດີນຕີດອກປີກໄກ່
                   </v-btn>
                 </router-link>
               </li>
   
               <li class="nav-item">
-                <router-link to="/football">
+                <router-link to="/News">
                   <v-btn depressed color="#0a75ad" class="text-white">
-                    ຈອງປີ້ເດີນເຕະບານ
+                    ຂ່າວສານ
                   </v-btn>
                 </router-link>
               </li>
@@ -69,7 +75,7 @@
                 <div class="logout">
                   <ul class=" d-flex justify-content-end">
               <li class="nav-item d-flex justify-content-end">
-                <router-link to="#" >
+                <router-link to="/myprofile" >
                   <v-btn depressed color="#0a75ad" class="text-white ">
                     ຂໍ້ມູນຂອງຂ້ອຍ
                   </v-btn>
